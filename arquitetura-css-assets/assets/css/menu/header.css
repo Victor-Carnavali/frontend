@@ -1,0 +1,8 @@
+.menu-header {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    /* top | rigth | bottom | left */
+    padding: 0 2rem 0 2rem;
+}
