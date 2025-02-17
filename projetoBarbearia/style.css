@@ -193,6 +193,10 @@ td, th {
 	font-weight: bold;
 }
 
+.itens::before {
+	content: "★ ";
+}
+
 .beneficios {
 	padding: 3em 0;
 }
