@@ -1,0 +1,13 @@
+.banner__title {
+    color: #fdfdfd;
+    font-family: 'SF Pro',Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
