@@ -1,0 +1,9 @@
+media screen breakpoint
+
+320px (phone - portrait)
+480px (phone - landscape + portrait)
+600px (small tablet - portrait)
+768px (large tablet)
+1024px (large tablet - landscape)
+1280px (desktop)
+1440px (wide screen desktop)

@@ -2,5 +2,25 @@
     background-color: #e5e5e5;
     display: flex;
     flex-wrap: wrap;
-    padding: 5rem 0 0 5rem;
+}
+
+@media screen and (min-width: 0) {
+    .recipes {
+        justify-content: center;
+        padding: 5rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recipes {
+        justify-content: center;
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .recipes {
+        justify-content: flex-start;
+        padding: 5rem 0 0 5rem;
+    }
 }

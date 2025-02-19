@@ -5,12 +5,12 @@
 
 @media screen and (min-width: 0) {
     .banner__img {
-        height: calc(100vh - 1000px);
+        height: calc(100vh - 900px);
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
     .banner__img {
-        height: calc(100vh - 900px);
+        height: calc(100vh - 700px);
     }
 }

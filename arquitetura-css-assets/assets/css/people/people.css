@@ -3,3 +3,21 @@
     padding-top: 3rem;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 360px) {
+    .people {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .people {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .people {
+        flex-direction: row;
+    }
+}

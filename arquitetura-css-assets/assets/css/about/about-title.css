@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
     .about__title {
         font-size: 2rem;
     }

@@ -19,3 +19,10 @@
 .person__img--summer {
     background-image: url('../../img/pessoas/summer.jpg');
 }
+
+@media screen and (max-width: 360px) {
+    .person__img {
+        width: 200px;
+        height: 200px;
+    }
+}
