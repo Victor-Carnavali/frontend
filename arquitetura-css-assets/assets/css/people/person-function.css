@@ -1,0 +1,6 @@
+.person__function {
+    text-transform: lowercase;
+    font-weight: 300;
+    color: #595959;
+    font-size: 1.20rem;
+}

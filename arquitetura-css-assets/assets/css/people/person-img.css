@@ -1,0 +1,21 @@
+.person__img {
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+
+.person__img--martha {
+    background-image: url('../../img/pessoas/martha.jpg');
+}
+
+.person__img--ana {
+    background-image: url('../../img/pessoas/ana.jpg');
+}
+
+.person__img--summer {
+    background-image: url('../../img/pessoas/summer.jpg');
+}
