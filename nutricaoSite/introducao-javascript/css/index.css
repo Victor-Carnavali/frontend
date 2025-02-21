@@ -136,3 +136,27 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido {
 	background-color: #faafaf;
 }
+
+.bto-principal {
+	background-color: #5974ab;
+	border: none;
+	border-radius: 8px;
+	transition: 0.3s ease-in-out;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.bto-principal:hover {
+	background-color: #394b6e;
+}
+
+.campo {
+	border-radius: 8px;
+}
+
+.campo-medio {
+	border-radius: 8px;
+}
+
+.grupo {
+	margin: 2px;
+}
