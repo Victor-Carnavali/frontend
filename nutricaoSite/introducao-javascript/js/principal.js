@@ -20,11 +20,14 @@ for (var i = 0; i < pacientes.length; i++) {
     if (peso <= 20 || peso > 400) {
         pesoEhValido = false;
         tdImc.textContent = "Peso invalido";
+        // add class to my js script
+        paciente.classList.add("paciente-invalido");
     }
 
     if (altura <= 0.5 || altura >= 3.0) {
         alturaEhValida = false;
-        tdImc.textContent = "Altura invalido";
+        tdImc.textContent = "Altura invalida";
+        paciente.classList.add("paciente-invalido");
     }
 
     if (alturaEhValida == true && pesoEhValido == true) {
