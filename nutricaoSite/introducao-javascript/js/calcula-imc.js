@@ -32,39 +32,14 @@ for (var i = 0; i < pacientes.length; i++) {
 
     if (alturaEhValida == true && pesoEhValido == true) {
         var imc = peso / (altura * altura);
-        tdImc.textContent = imc.toFixed(2); // Exibe o IMC com 2 casas decimais
+        tdImc.textContent = imc.toFixed(2);
     }
 }
 
-var btnAdicionar = document.querySelector("#adicionar-paciente");
+function calculaImc(peso, altura) {
+    var imc = 0;
 
-btnAdicionar.addEventListener("click", function(event){
-    event.preventDefault();
-    
-    var form = document.querySelector("#form-adiciona");
+    imc = peso / (altura * altura);
 
-    var nome = form.nome.value;
-    var peso = form.peso.value;
-    var altura = form.altura.value;
-    var gordura = form.gordura.value;
-
-    var pacienteTr = document.createElement("tr");
-
-    var nomeTd = document.createElement("td");
-    var pesoTd = document.createElement("td");
-    var alturaTd = document.createElement("td");
-    var gorduraTd = document.createElement("td");
-
-    nomeTd.textContent = nome;
-    pesoTd.textContent = peso;
-    alturaTd.textContent = altura;
-    gorduraTd.textContent = gordura;
-
-    pacienteTr.appendChild(nomeTd);
-    pacienteTr.appendChild(pesoTd);
-    pacienteTr.appendChild(alturaTd);
-    pacienteTr.appendChild(gorduraTd);
-
-    var tabela = document.querySelector("#tabela-pacientes");
-    tabela.appendChild(pacienteTr);
-});
+    return imc.toFixed(2);
+}
